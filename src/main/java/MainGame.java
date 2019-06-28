@@ -36,9 +36,10 @@ public class MainGame extends GameApplication {
     //for initializing the game window
     @Override
     protected void initSettings(GameSettings settings) {
-        settings.setTitle("Coin Run");
+        settings.setTitle("NewGame");
         settings.setWidth(1200);
         settings.setHeight(700);
+        settings.setCloseConfirmation(true);
     }
 
     //for initializing the game entities
@@ -46,16 +47,16 @@ public class MainGame extends GameApplication {
     protected void initGame() {
         background = FXGL.entityBuilder()
                 .at(0,0)
-                .view("background.png")
+                .view("final1.jpg")
                 .buildAndAttach();
 
         player = FXGL.entityBuilder()
-                .at(0,580-140)
+                .at(500,560-138)
                 .view("player2_still.png")
                 .buildAndAttach();
 
         coin = entityBuilder()
-                .at(715, 480)
+                .at(650, 450)
                 .viewWithBBox(new Circle(15, Color.YELLOW))
                 .with(new CollidableComponent(true))
                 .buildAndAttach();
@@ -72,20 +73,32 @@ public class MainGame extends GameApplication {
     protected void initInput() {
         Input input = FXGL.getInput();
 
+
         input.addAction(new UserAction("Go right") {
             @Override
             protected void onAction() {
                 isForward=true;
                 player.setView(FXGL.getAssetLoader().loadTexture("player2.gif")); //changing the player image
-
-                if(player.getX() < 1060){ //right bound for player
-                    player.translateX(2);
+                if(background.getX() > -3200) { //right bound for background
+                    background.translateX(-4);
+                    coin.translateX(-4);
+                    coin1.translateX(-4);
                 }
 
-                if(background.getX() > -550) { //right bound for background
-                    background.translateX(-2);
-                    coin.translateX(-2);
-                    coin1.translateX(-2);
+                if(!isCoinOntained
+                        && coin.getCenter().getX()-player.getCenter().getX() <= 250
+                        && coin.getCenter().getX()-player.getCenter().getX() >= -30){
+                    FXGL.getGameState().increment("Coins", +3); //coin is obtained
+                    isCoinOntained = true;
+                    coin.removeFromWorld();
+                }
+
+                if(!isCoin1Obtained
+                        && coin1.getCenter().getX()-player.getCenter().getX() <= 300
+                        && coin1.getCenter().getX()-player.getCenter().getX() >= -50){
+                    FXGL.getGameState().increment("Coins", +3); //coin1 is obtained
+                    isCoin1Obtained = true;
+                    coin1.removeFromWorld();
                 }
             }
 
@@ -99,14 +112,14 @@ public class MainGame extends GameApplication {
             @Override
             protected void onAction() {
                 isForward=false;
+                System.out.println(player.getX()+" "+player.getY());// for testing
+                System.out.println("background"+" "+background.getX() +" "+background.getY());
                 player.setView(FXGL.getAssetLoader().loadTexture("player2_flipped.gif")); //changing the player image
-                if(player.getX() > 0){ //right bound for player
-                    player.translateX(-2);
-                }
-                if(background.getX() < 0) { //right bound for background
-                    background.translateX(2);
-                    coin.translateX(2);
-                    coin1.translateX(2);
+
+                if(background.getX() < 0){
+                    background.translateX(4);
+                    coin.translateX(4);
+                    coin1.translateX(4);
                 }
             }
 
@@ -119,18 +132,18 @@ public class MainGame extends GameApplication {
         input.addAction(new UserAction("Jump") {
             @Override
             protected void onActionBegin() {
-                if(player.getX()<1060 && isForward) {
+                if(player.getX()<900 && isForward) {    ////change for jump temporaly
                     for(int i = 0; i<=200; i+=50){
                         getMasterTimer().runOnceAfter(() -> {
-                            player.translate(20, -20); //player is moving up
+                            player.translate(5, -20); //player is moving up
                         }, Duration.millis(i));
                     }
                     for(int i = 200; i<=400; i+=50){
                         getMasterTimer().runOnceAfter(() -> {
-                            player.translate(20, 20); //player is moving down
+                            player.translate(5, 20); //player is moving down
                         }, Duration.millis(i));
                     }
-                }else if(player.getX()>0 && !isForward){
+                }else if(player.getX()>0 && !isForward&&(! (player.getX()>=120&& player.getX()<=200) && ! (background.getX()>=-60 && background.getX()<=-110))){
                     for(int i = 0; i<=200; i+=50){
                         getMasterTimer().runOnceAfter(() -> {
                             player.translate(-20, -20); //player is moving up
@@ -160,7 +173,9 @@ public class MainGame extends GameApplication {
                 }
             }
         }, KeyCode.SPACE);
+
     }
+
 
 
     //for keep tracking of how many coins have gained
