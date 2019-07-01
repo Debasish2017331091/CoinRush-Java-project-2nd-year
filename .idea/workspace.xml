@@ -2,25 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="518844ed-4d8a-4208-91d8-09ec0da5391a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainGame2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/MainGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/MainGame$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/MainGame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/MainGame$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/MainGame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/MainGame$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/MainGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/MainGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/textures/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/textures/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-10-May-2019-13.11.20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-10-May-2019-13.13.02.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-10-May-2019-13.13.48.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-10-May-2019-13.15.30.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-10-May-2019-13.16.19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-10-May-2019-13.17.02.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-10-May-2019-13.19.42.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-10-May-2019-13.20.16.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-10-May-2019-13.38.12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-10-May-2019-20.11.52.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/textures/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/textures/background1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/textures/final1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Jun-2019-19.31.58.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Jun-2019-19.33.38.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Jun-2019-19.34.11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Jun-2019-19.36.10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Jun-2019-19.36.23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-20-Jun-2019-19.40.19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-25-Jun-2019-17.59.57.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-25-Jun-2019-18.00.06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-25-Jun-2019-18.05.13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-25-Jun-2019-18.06.34.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/background1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/final1.jpg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -46,13 +56,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1424">
-              <caret line="81" column="44" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="44" />
+            <state relative-caret-position="326">
+              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1908#1909#0" expanded="true" />
+                <element signature="e#1944#1945#0" expanded="true" />
+                <element signature="e#14416#14417#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/textures/background2.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -84,6 +102,11 @@
             <path>
               <item name="javafx-workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="javafx-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="javafx-workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javafx-workshop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javafx-workshop" type="b2602c69:ProjectViewProjectNode" />
@@ -122,11 +145,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -170,8 +194,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.020134227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21610738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -180,7 +205,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986577" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986577" visible="true" weight="0.34316355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -208,6 +233,8 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/textures/final.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/textures/final1.jpg" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -215,15 +242,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/textures/final.png">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/textures/background2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1424">
-          <caret line="81" column="44" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="44" />
+        <state relative-caret-position="326">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#1944#1945#0" expanded="true" />
+            <element signature="e#14416#14417#0" expanded="true" />
           </folding>
         </state>
       </provider>
